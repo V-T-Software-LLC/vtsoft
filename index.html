@@ -4,9 +4,50 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vtsoft</title>
+    <meta name="description" content="V&T Software LLC builds minimal, fast software." />
+    <title>V&amp;T Software</title>
   </head>
-  <body>
+  <body class="bg-neutral-950 text-neutral-200 antialiased">
+    <div class="mx-auto flex min-h-screen max-w-3xl flex-col px-6">
+      <header class="py-8">
+        <a href="/" class="font-semibold tracking-tight text-white">V&amp;T Software</a>
+      </header>
+
+      <main class="flex-1">
+        <section class="py-24">
+          <h1 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+            Simple software that stays fast.
+          </h1>
+          <p class="mt-6 max-w-xl text-lg text-neutral-400">
+            We build focused tools without the clutter. Fewer features, done well, so you can get what you need and get on with your day.
+          </p>
+        </section>
+
+        <section id="products" class="border-t border-neutral-800 py-16">
+          <h2 class="text-sm font-medium uppercase tracking-widest text-neutral-500">Products</h2>
+
+          <a
+            href="https://nuviomacros.com"
+            class="group mt-6 block rounded-xl border border-neutral-800 bg-neutral-900 p-6 transition-colors hover:border-neutral-700"
+          >
+            <div class="flex items-center justify-between">
+              <h3 class="text-xl font-semibold text-white">Nuvio</h3>
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs text-emerald-400">
+                Coming soon
+              </span>
+            </div>
+            <p class="mt-3 text-neutral-400">
+              A straightforward macro tracker. Log your food, see your protein, carbs, and fat, and move on.
+            </p>
+            <p class="mt-4 text-sm text-neutral-500 group-hover:text-neutral-300">nuviomacros.com &rarr;</p>
+          </a>
+        </section>
+      </main>
+
+      <footer class="border-t border-neutral-800 py-8 text-sm text-neutral-500">
+        &copy; <span id="year"></span> V&amp;T Software LLC
+      </footer>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
